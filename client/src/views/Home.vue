@@ -18,7 +18,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <p class="text-white">{{ currentTime }}</p>
+  <p class="text-white ml-2">{{ currentTime }}</p>
 </template>
 
 <style scoped>

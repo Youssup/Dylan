@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <a class="text-white mx-5" href="">button 1</a>
+    <a class="text-white ml-2" href="">button 1</a>
     <a class="text-white mx-5" href="">button 2</a>
 </template>
 
