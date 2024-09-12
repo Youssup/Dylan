@@ -1,13 +1,20 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
   <div>
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-</div>
+    <header>
+      <nav>
+
+      </nav>
+    </header>
+    <RouterView />
+    <footer>
+      <Footer />
+    </footer>
+  </div>
 </template>
 
 <style scoped>
