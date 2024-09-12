@@ -1,9 +1,13 @@
-<script setup>
-import Home from './components/Home.vue'
+<script setup lang="ts">
+import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <Home />
+  <div>
+    <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</div>
 </template>
 
 <style scoped>
