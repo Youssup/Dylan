@@ -9,37 +9,22 @@ const router = createRouter({
       component: () => import('../views/Home.vue')
     },
     {
-      path: '/',
-      name: 'Footer',
-      component: () => import('../components/Footer.vue')
-    },
-    {
-      path: '/',
-      name: 'Navbar',
-      component: () => import('../components/Navbar.vue')
-    },
-    {
-      path: '/',
-      name: 'CarouselComponent',
-      component: () => import('../components/CarouselComponent.vue')
-    },
-    {
-      path: '/',
+      path: '/Beats',
       name: 'Beats',
       component: () => import('../views/Beats.vue')
     },
     {
-      path: '/',
+      path: '/Business',
       name: 'Business',
       component: () => import('../views/Business.vue')
     },
     {
-      path: '/',
+      path: '/Credits',
       name: 'Credits',
       component: () => import('../views/Credits.vue')
     },
     {
-      path: '/',
+      path: '/Goals',
       name: 'Goals',
       component: () => import('../views/Goals.vue')
     }

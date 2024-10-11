@@ -14,7 +14,7 @@ import Footer from './components/Footer.vue';
     </header>
 
     <!-- Main content area grows to fill available space -->
-    <main class="flex-grow container">
+    <main class="flex-grow">
       <RouterView />
     </main>
 
