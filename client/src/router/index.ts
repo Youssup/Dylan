@@ -5,7 +5,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'Home',
       component: () => import('../views/Home.vue')
     },
     {
@@ -17,6 +17,31 @@ const router = createRouter({
       path: '/',
       name: 'Navbar',
       component: () => import('../components/Navbar.vue')
+    },
+    {
+      path: '/',
+      name: 'CarouselComponent',
+      component: () => import('../components/CarouselComponent.vue')
+    },
+    {
+      path: '/',
+      name: 'Beats',
+      component: () => import('../views/Beats.vue')
+    },
+    {
+      path: '/',
+      name: 'Business',
+      component: () => import('../views/Business.vue')
+    },
+    {
+      path: '/',
+      name: 'Credits',
+      component: () => import('../views/Credits.vue')
+    },
+    {
+      path: '/',
+      name: 'Goals',
+      component: () => import('../views/Goals.vue')
     }
   ]
 })
