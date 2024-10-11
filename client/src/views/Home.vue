@@ -29,7 +29,11 @@ onMounted(() => {
       <Carousel />
     </div>
   </div>
+  <div>
+    
+  </div>
 </template>
 
 <style scoped>
+
 </style>
