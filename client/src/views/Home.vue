@@ -24,7 +24,7 @@ onMounted(() => {
   
   <!-- Flex container for centering the carousel -->
   <div class="flex flex-grow items-center justify-center p-4">
-    <div class="w-full max-w-md lg:max-w-lg">
+    <div>
       <!-- Limit the carousel width on smaller screens -->
       <Carousel />
     </div>
